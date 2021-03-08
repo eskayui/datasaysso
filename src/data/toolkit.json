@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Farmers Protests",
+        "id": "farmers_protests",
+        "value": 100,
+        "link": [
+            "toolkit"
+        ],
+        "children": [
+            {
+                "name": "Organizers",
+                "value": 50,
+                "link": [
+                    "political_parties"
+                ],
+                "children": [
+                    {
+                        "name": "BKU",
+                        "value": 30,
+                        "id": "bku"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Toolkit",
+        "id": "toolkit",
+        "value": 100,
+        "children": [
+            {
+                "name": "Creators",
+                "id": "creators",
+                "value": 50,
+                "children": [
+                    {
+                        "name": "Greta",
+                        "id": "creator_greta",
+                        "value": 80,
+                        "link": [
+                            "climate_activist"
+                        ]
+                    },
+                    {
+                        "name": "Disha",
+                        "id": "creator_disha",
+                        "link": [
+                            "climate_activist"
+                        ],
+                        "value": 80
+                    }
+                ]
+            },
+            {
+                "name": "Propagators",
+                "id": "propagators",
+                "value": 50,
+                "children": [
+                    {
+                        "name": "Nikita",
+                        "link": [
+                            "AAP",
+                            "pjf",
+                            "journo"
+                        ],
+                        "value": 30
+                    },
+                    {
+                        "name": "Shantanu",
+                        "value": 30,
+                        "link": [
+                            "pjf",
+                            "shivsena",
+                            "climate_activist",
+                            "beed"
+                        ]
+                    },
+                    {
+                        "name": "Mo Dhaliwal",
+                        "value": 30,
+                        "link": [
+                            "pjf",
+                            "khalistan",
+                            "canada"
+                        ],
+                        "children": [
+                            {
+                                "name": "Skyrocket",
+                                "tooltip": "Production house owned by Mo Dhaliwal",
+                                "value": 70
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Media",
+                "tooltip": "Media platforms named in the toolkit",
+                "value": 50,
+                "children": [
+                    {
+                        "name": "The Wire",
+                        "id": "the_wire",
+                        "value": 30
+                    },
+                    {
+                        "name": "The Scroll",
+                        "id": "the_scroll",
+                        "value": 30
+                    },
+                    {
+                        "name": "The NewsLaundry",
+                        "id": "the_news_laundry",
+                        "value": 30
+                    },
+                    {
+                        "name": "AltNews",
+                        "id": "altnews",
+                        "value": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fact-checkers",
+                "tooltip": "Fact-checkers named in the toolkit",
+                "value": 50,
+                "children": [
+                    {
+                        "name": "Zubair",
+                        "id": "the_wire",
+                        "link": [
+                            "altnews"
+                        ],
+                        "value": 30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Political Parties",
+        "id": "political_parties",
+        "value": 50,
+        "children": [
+            {
+                "name": "AAP",
+                "id": "AAP",
+                "value": 30
+            },
+            {
+                "name": "Congress",
+                "id": "congress",
+                "value": 30
+            },
+            {
+                "name": "Shivsena",
+                "id": "shivsena",
+                "value": 30
+            },
+            {
+                "name": "Poetic Justice",
+                "id": "pjf",
+                "value": 30
+            }
+        ]
+    },
+    {
+        "name": "Roles",
+        "value": 70,
+        "link": [
+            "farmers_protests"
+        ],
+        "children": [
+            {
+                "name": "Climate Activist",
+                "id": "climate_activist",
+                "value": 100
+            },
+            {
+                "name": "Journalist",
+                "id": "journo",
+                "value": 100
+            }
+        ]
+    },
+    {
+        "name": "Lal Kila Violence",
+        "link": [
+            "farmers_protests"
+        ],
+        "id": "lal_kila",
+        "value": 100,
+        "children": [
+            {
+                "name": "Accused",
+                "value": 80,
+                "children": [
+                    {
+                        "name": "Deep Sidhhu",
+                        "value": 100
+                    },
+                    {
+                        "name": "Maninder Singh",
+                        "value": 100
+                    },
+                    {
+                        "name": "Maninder Singh",
+                        "value": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zoom Meeting",
+        "value": 30,
+        "link": [
+            "propagators",
+            "creators"
+        ]
+    },
+    {
+        "name": "Khalistan",
+        "id": "khalistan",
+        "children": [
+            {
+                "name": "Bhajan Singh Bhinder",
+                "tooltip": "aka Iqbal Choudhary",
+                "id": "bhajan_singh_bhinder",
+                "children": [
+                    {
+                        "name": "OFMI",
+                        "tooltip": "Organization for Minorities of India",
+                        "id": "ofmi",
+                        "value": 50
+                    },
+                    {
+                        "name": "SIC",
+                        "tooltip": "Sikh Information Center",
+                        "id": "sic",
+                        "value": 50
+                    }
+                ],
+                "link": [
+                    "khalistan",
+                    "isi"
+                ],
+                "value": 100
+            }
+        ],
+        "value": 100
+    },
+    {
+        "name": "ISI",
+        "id": "isi",
+        "link": [
+            "khalistan"
+        ],
+        "children": [
+            {
+                "name": "K-2",
+                "id": "k2",
+                "tooltip": "purpose of K-2 was to foment revolts and rebellions within India",
+                "value": 50
+            }
+        ],
+        "value": 100
+    },
+    {
+        "name": "Christian Missionary",
+        "id": "christian_missionary",
+        "value": 10
+    },
+    {
+        "name": "Gandhi Statue Vandalism",
+        "id": "gandhi_statue_vandalism",
+        "link": [
+            "usa",
+            "khalistan"
+        ],
+        "value": 10
+    },
+    {
+        "name": "Locations",
+        "value": 70,
+        "children": [
+            {
+                "name": "Canada",
+                "id": "canada",
+                "value": 50
+            },
+            {
+                "name": "Beed",
+                "id": "beed",
+                "value": 50
+            },
+            {
+                "name": "USA",
+                "id": "usa",
+                "value": 50
+            }
+        ]
+    },
+    {
+        "name": "Pieter Friedrich",
+        "id": "pieter_friedrich",
+        "link": [
+            "bhajan_singh_bhinder",
+            "christian_missionary",
+            "usa",
+            "gandhi_statue_vandalism",
+            "sic",
+            "ofmi"
+        ],
+        "value": 100
+    },
+    {
+        "name": "Lal Singh",
+        "id": "lal_singh",
+        "tooltip": "Khalistani extremist",
+        "link": [
+            "bhajan_singh_bhinder",
+            "k2"
+        ],
+        "value": 50
+    }
+]
